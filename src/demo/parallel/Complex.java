@@ -72,7 +72,7 @@ public class Complex {
     }
 
     /**
-     * Substract operation.
+     * Subtract operation.
      * @param b minuend
      * @return this Complex object whose value is (this - b)
      */
@@ -80,6 +80,14 @@ public class Complex {
         re -= b.re;
         im -= b.im;
         return this;
+    }
+
+    public double getRe() {
+        return re;
+    }
+
+    public double getIm() {
+        return im;
     }
 
     /**
